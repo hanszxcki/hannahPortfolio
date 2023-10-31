@@ -5,7 +5,7 @@ const config = {
   kit: {
     adapter: adapter(),
     paths: {
-        base: process.env.NODE_ENV === 'production' ? '/hannahPortfolio-github-pages' : '',
+        base: process.env.NODE_ENV === 'production' ? '/svelte-github-pages' : '',
     }
   },
   preprocess: vitePreprocess()
